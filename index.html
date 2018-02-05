@@ -15,64 +15,84 @@
   </head>
   <body>
   	
-      <!--_____Footer_____ 
+      <!--_____Header_____ 
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top" style="background-image: img/2.jpeg;">
     	-->
       <!-- 
         чтобы выставить свой background   -->
-        <div class="container-fluid" style="background-image: url(img/2.jpeg); height: 70%;margin-bottom: 50px;">
-           <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:  rgba(255, 255, 255, 0);">
-        
-   		
+      <div class="container-fluid header">
 
-      <a href="#" class="navbar-brand">
-        <img src="img/bootstrap-4.svg" width="50" height="30" alt="logo">
-      </a>
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:  rgba(255, 255, 255, 0);">     
+      	<a href="#" class="navbar-brand">
+        	<img src="img/logo.png" width="150" height="25" alt="logo">
+      	</a>
+
+      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        	<span class="navbar-toggler-icon"></span>
+      	</button>
       
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      	<div class="collapse navbar-collapse sss" id="navbarSupportedContent">
 
          <!-- add menu -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal-auth">Sign in</a>
-          </li>
-        </ul>
+        	<ul class="navbar-nav mr-auto">
+          		<li class="nav-item active">
+            		<a href="#" class="nav-link">О нас</a>
+          		</li>
+          		<li class="nav-item">
+           			 <a href="news.html" class="nav-link" >Новости</a>
+          		</li>
+          		<li class="nav-item">
+            		<a href="#" class="nav-link">Продукция</a>
+          		</li>
+          		<li class="nav-item">
+           			<a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal-auth">Услуги</a>
+          		</li>
+        	</ul>
 
-        <!-- add Search -->
-        <form class="form-inline my-2 my-lg-0">
-            <input type="text" name="form-control ms-sm-2" placeholder="Search" aria-label="Search">
-            <button class="btn-outline-success my-2 my-sm-0">Search</button>
-        </form>  
+        	<!-- add Search -->
+        	<form class="form-inline my-2 my-lg-0">
+            	<input type="text" name="form-control ms-sm-2" placeholder="Search" aria-label="Search">
+            	<button class="btn-outline-success my-2 my-sm-0">Search</button>
+        	</form>  
 
       </div>
 
     </nav>
 
+    	<div class="asd">
+		
+		<div class="container-fluid" style="display: flex; justify-content: left; color: white;">
+			<h1>О компании</h1>				
+		</div>
+		<div class="container-fluid" style="display: flex; justify-content: left; color: white;">			
+			
+			<p>ОАО «Конструкторское бюро «Дисплей» специализируется<br>
+			на разработке и производстве: видеомониторов межвидового применения,<br> 
+			авиационных дисплеев, ЭВМ специального назначения,<br>
+			микродисплейных систем индикации для жестких условий эксплуатации</p>
+				
+		</div>
+		<div class="container-fluid">
+			<button type="button" class="btn btn-outline-secondary btn1">
+				Перейти к выбору продукции
+			</button>			
+		
+		</div>
+		</div>
+
 	</div>
 	
 	 <div class="container">
 	 	
-	 	<h1 align="center" style="margin-bottom: 50px;">НАША ПРОДУКЦИЯ</h1>
+	 	<h2 align="center" style="margin-bottom: 50px;">УЗНАЙТЕ БОЛЬШЕ О НАШИХ ПРОДУКТАХ</h2>
 
 	 </div>
 
     <!-- SLIDER -->
 
-    <div class="container-fluid carousel-margin-top">
+    <div class="container-fluid carousel-margin-top" style="width: 60%;">
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li class="active" data-target="#carouselExampleIndicators" data-slide-to="0">
@@ -111,7 +131,7 @@
 
 	 <div class="container">
 	 	
-	 	<h1 align="center" style="margin-bottom: 50px; margin-top: 50px;">НАШИ УСЛУГИ</h1>
+	 	<h2 align="center" style="margin-bottom: 50px; margin-top: 50px;">НАШИ ТЕХНОЛОГИИ</h2>
 
 	 </div>
 
@@ -190,61 +210,16 @@
 	-->
 	<!-- /GRID --> 
 	
-	<div class="container-fluid">
-		<div class="container">
-			<div class="card-deck" >
-			<div class="card" style="width: 20rem;">
-				<img class="card-img-top" src="img/2.jpeg" alt="Card image cap">
-				<div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			
-			</div>
-				<div class="card" style="width: 20rem;">
-				<img class="card-img-top" src="img/2.jpeg" alt="Card image cap">
-				<div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			<div class="card" style="width: 20rem;">
-				<img class="card-img-top" src="img/2.jpeg" alt="Card image cap">
-				<div class="card-body">
-				    <h5 class="card-title">Card title</h5>
-				    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-				    <a href="#" class="btn btn-primary">Go somewhere</a>
-				</div>
-			</div>
-			</div>
-		</div>
-	</div>
+	
+
+	
+
+
+
+
 
 	<!-- MODAL WINDOW -->
-	<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true" >
-		<div class="modal-dialog" role="document">
-			<div class="modal-content">
-				<div class="modal-header">
-					<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-					<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-						<span aria-hidden="true">&times;</span>
-					</button>
-				</div>
-				<div class="modal-body">
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, id animi modi cumque autem odio aut nam explicabo ullam laborum ea blanditiis pariatur unde nulla, iure, nostrum assumenda necessitatibus. Ducimus veniam ratione voluptate odio modi possimus animi quae? Repellat possimus obcaecati, magnam illum minus vitae totam ipsa iusto cumque. Nihil!
-					</p>
-				</div>
-				<div class="modal-footer">					
-					<button class="btn btn-secondary" data-dismiss="modal">Close</button>
-					<button class="btn btn-primary" data-dismiss="modal">Accept</button>
-					
-				</div>
-			</div>
-		</div>		
-	</div>
+	
 
 		<!-- sign in form -->
 	<div class="modal fade" id="exampleModal-auth" tabindex="-1" role="dialog" aria-labelledby="exampleModal" aria-hidden="true" >
@@ -296,53 +271,142 @@
 	<!-- /MODAL WINDOW -->
 
 	<!-- FLEX BOX WORKING -->
-	<div class="container">
-		<div class="d-flex p-3">
-			<div class="m-3">Flex item 1</div>
-			<div class="m-3">Flex item 2</div>
-			<div class="m-3">Flex item 3</div>
-		</div>
+
+
+	<div class="container-fluid p-5">
+  <div class="row m-0">
+    <div class="col tech-img" style="background-image: url(img/1-tech.jpg);">
+		<h3 class="tech-font">
+			ОКР
+		</h3>
+    </div>
+
+    <div class="col tech-img" style="background-image: url(img/2-tech.jpeg);">
+		<h3 class="tech-font">
+			МЕХАНИЧЕСКИЕ ИСПЫТАНИЯ
+		</h3>
+    </div>
+
+    <div class="col tech-img" style="background-image: url(img/3-tech.jpeg);">
+		<h3 class="tech-font">
+			МЕХАНИЧЕСКАЯ ОБРАБОТКА
+		</h3>
+    </div>
 	</div>
+
+    <div class="w-100"></div>
+	 <div class="row m-0">
+
+    <div class="col tech-img" style="background-image: url(img/4-tech.jpg);">
+		<h3 class="tech-font">
+			ЛАБОРАТОРИЯ СВЕТОТЕХНИЧЕСКИХ ИЗМЕРЕНИЙ
+		</h3>
+    </div>
+
+    <div class="col tech-img" style="background-image: url(img/5-tech.jpeg);">
+		<h3 class="tech-font">
+			КЛИМАТИЧЕСКИЕ ИСПЫТАНИЯ
+		</h3>
+    </div>
+
+    <div class="col tech-img" style="background-image: url(img/7-tech.jpeg);">
+		<h3 class="tech-font">
+			ОБЕСПЕЧЕНИЕ ДОПОЛНИТЕЛЬНЫХ ОПЦИЙ
+		</h3>
+    </div>
+	</div>
+
+    <div class="w-100"></div>
+	<div class="row m-0">
+
+    <div class="col tech-img" style="background-image: url(img/6-tech.jpg);">
+		<h3 class="tech-font">
+			ЛАБОРАТОРИЯ ЭМС
+		</h3>
+    </div>
+    <div class="col tech-img" style="background-image: url(img/7-tech.jpeg);">
+		<h3 class="tech-font">
+			ДОРАБОТКА ЖК-ПАНЕЛЕЙ
+		</h3>
+    </div>
+    <div class="col tech-img" style="background-image: url(img/3.jpg);">
+		<h3 class="tech-font">
+			ЭЛЕКТРОННЫЕ КОМПОНЕНТЫ ПОД ЗАКАЗ
+		</h3>
+    </div>
+	</div>
+  
+</div>
+
 	<!-- /FLEX BOX WORKING -->
 	
+	<div class="container-fluid location">
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					
+					<div id="map">
 
-	<!-- FOOTER -->
-	<footer >
-	<div class="container-fluid footer "  >
-		 <nav class="navbar navbar-expand-lg navbar-dark">
-        
-   		
+			
+					</div>
+			
+				</div>
 
-      <a href="#" class="navbar-brand">
-        <img src="img/bootstrap-4.svg" width="50" height="30" alt="logo">
-      </a>
+				<div class="col">
+					
+						<div class="modal-content">
+						<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">Напишите нам</h5>
+					
+						</div>
+					<div class="modal-body">
+						<div class="container-fluid">
+							<form action="send_mail.php" method="post" name="f1">
 
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+								<div class="form-group">
+									<label for="exampleInputEmail">Email address</label>
+									<input type="text" class="form-control" id="exampleInputEmail" aria-describdby="emailHelp" placeholder="Email" name="email" required >
+									<small id="emailHelp" class="form-text text-muted">enter your email</small>	
+								</div>
 
-         <!-- add menu -->
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a href="#" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal">Pricing</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link">About us</a>
-          </li>
-          <li class="nav-item">
-            <a href="#" class="nav-link" data-toggle="modal" data-target="#exampleModal-auth">Sign in</a>
-          </li>
-        </ul>
-      </div>
+							<div class="form-group">
+								<label for="exampleInputPass">Name</label>
+								<input type="text" class="form-control" id="exampleInputPass"  placeholder="Password" name="name" required>
+								<small id="passHelp" class="form-text text-muted">Password must be contain 10 symbols</small>	
+							</div>
+							
+							<div class="form-row" >
+								<div class="col">
+									<button class="btn btn-primary" name="btn_submit">Send</button>
+								</div>
+								
+								<div class="col">
+									<div class="form-check">
+										<label  class="form-check-label">
+										<input type="checkbox" class="form-check-input">
+										Запомнить меня
+										</label>
+									</div>
+								</div>														
+							</div>
+						</form>
+					</div>
+				</div>				
+			</div>	
 
-    </nav>
+				</div>
+			</div>
+		</div>
 	</div>
-	</footer>
+
+			
+		
+	<!-- FOOTER -->
+	
+	<div class="footer"  >
+		<h3>ОАО Конструкторское бюро дисплей</h3>					
+	</div>
+
 	<!-- /FOOTER -->
 	
 
@@ -352,6 +416,23 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="js/script.js"></script>
+
+     <script>
+      function initMap() {
+        var uluru = {lat: -25.363, lng: 131.044};
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 4,
+          center: uluru
+        });
+        var marker = new google.maps.Marker({
+          position: uluru,
+          map: map
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAUicYXzXdOR2iuXANazrQGJBuL2QmtsJA&callback=initMap">
+    </script>
 
   </body>
 
