@@ -17,8 +17,6 @@ body{
     color: #fff; /* Цвет текста */
     width: 100%; /* Ширина слоя */
     text-align: center;
-
-
 }
 
 #map{
@@ -46,8 +44,6 @@ background-color: #000;
   	height: 70%;
   	margin-bottom: 50px;
 
-
-
   	background-position: center center;      
   	background-repeat: no-repeat;      
   	background-attachment: fixed;      
@@ -61,11 +57,34 @@ background-color: #000;
 	border-color: white;
 }
 
+.btn1:hover{
+	
+	background-color: #69ce76;
+	border-color: #69ce76;
+	
+}
+
+.p-0{
+	padding: 0px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon{
+	height: 50px;
+	width: 50px;
+}
+
+.main-text
+{
+position: absolute;
+margin: auto 0px;
+width: 96.66666666666666%;
+color: #FFF;
+}
 .tech-img{
 	
 	box-shadow:0 0 0 250px rgba(0, 0, 0, 0.70) inset;
 	background-size: cover;
-	 display: inline-block;
+	display: inline-block;
   	align-items: center;
   	padding: 100px;
   	padding-bottom: 100px;
@@ -100,4 +119,17 @@ textarea{
 	width: 				100%;
 	height: 			100px;
 	resize: 			vertical;
+}
+
+.card-news{
+
+}
+
+.card-news:hover{
+
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);	
+}
+
+.actual-info:hover{
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);	
 }
