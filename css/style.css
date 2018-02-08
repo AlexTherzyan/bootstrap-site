@@ -8,6 +8,19 @@ body{
 
 }
 
+.footer-link  a{
+	color: white;
+	
+}
+
+.footer-link a:hover{
+	color: #23a455;
+}
+
+.de{
+	color: black;
+}
+
 .footer{
 
    	position: relative; /* Фиксированное положение */
