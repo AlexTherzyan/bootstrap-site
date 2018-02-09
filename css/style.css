@@ -23,7 +23,18 @@ body{
 
 .footer{
 
-   	position: relative; /* Фиксированное положение */
+   	position: absolute; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background: #4054b2; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    text-align: center;
+}
+
+
+.footer1{
+	position: fixed; /* Фиксированное положение */
     left: 0; bottom: 0; /* Левый нижний угол */
     padding: 10px; /* Поля вокруг текста */
     background: #4054b2; /* Цвет фона */
@@ -119,8 +130,12 @@ color: #FFF;
 }
 
 
-.tech-font{
+.tech-img h3{
 	color: white;
+}
+
+.tech-img:hover h3{
+	color: red;
 }
 
 
